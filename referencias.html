@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harley Davidson</title>
+    <style>
+        /* Estilo do menu de navegação */
+.menu-principal {
+    background-color: #c16815;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.menu-principal ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-principal a:hover {
+    background-color: #c16815;
+}
+         :root {
+           --harley: #c16815;
+            --cinza-claro: #f5f5f5;
+            --cinza-escuro: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--cinza-escuro);
+            background-color: var(--cinza-claro);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: var(--harley);
+            color: white;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: var(--harley);
+            border-bottom: 2px solid var(#c16815);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        
+        .modelo-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .modelo-card {
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .modelo-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .modelo-imagem {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--harley);        }
+        
+        .modelo-info {
+            padding: 20px;
+        }
+        
+        .modelo-nome {
+            font-size: 1.4rem;
+            color: var(--harley);
+            margin-bottom: 10px;
+        }
+        
+        .modelo-detalhes {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+        
+        .modelo-status {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        
+        .motorizacao {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .motor-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .motor-item:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        footer {
+    background-color: #c16815;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.menu {
+  background-color: #c16815;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  margin: 0; /* remove margem externa */
+  box-sizing: border-box;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ffcc00; /* cor de destaque ao passar o mouse */
+}
+
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+       
+        <img src="https://i.postimg.cc/Y0Vjx2TR/download.png" alt="Logotipo da Harley Davidson" width="400">
+    </header>
+    
+    <nav class="menu-principal">
+        <ul>
+            <a href="contato.html">Contato</a>
+            <a href="curiosidade.html">Curiosidade</a>
+            <a href="customização.html">customização</a>
+            <a href="fotos.html">Fotos</a>
+            <a href="historia.html">História</a>
+            <a href="manutencao.html">Manutenção</a>
+            <a href="modelo.html">Modelo</a>
+            <a href="tabela.html">Tabela</a>
+            <a href="index.html">Inicial</a>
+            <a href="videos.html">videos</a>
+            <a href="referencias.html">Referências</a>
+            <a href="#topo" style="position: fixed; bottom: 20px; right: 20px; background-color: #c16815; color: white; padding: 10px 15px; border-radius: 50%;">↑</a>
+
+
+        </ul>
+    </nav>
+    <h1>Referências</h1>
+    <p>Confira abaixo as fontes utilizadas neste trabalho:</p>
+    <ul>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/fotos/#header-content">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/fotos/#header-content</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/#header-content">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/#header-content</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/especificacoes/#header-content">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/especificacoes/#header-content</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/fat-boytm-114/especificacoes/#header-content">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/fat-boytm-114/especificacoes/#header-content</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/sporstertm-s/especificacoes/#header-content">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/sporstertm-s/especificacoes/#header-content</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/street-bob/</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/sporstertm-s/">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/sporstertm-s/</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/fat-boytm-114/">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/fat-boytm-114/</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/breakouttm-117/fotos/">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/breakouttm-117/fotos/</a></li>
+        <li><a href="https://www.harleydavidsonfloripa.com.br/motocicletas-novas/breakouttm-117/fotos/#lg=1&slide=0">https://www.harleydavidsonfloripa.com.br/motocicletas-novas/breakouttm-117/fotos/#lg=1&slide=0</a></li>
+        <li><a href="https://www.webmotors.com.br/motos/estoque/harley-davidson/softail-breakout?utm_id=21235730122&utm_source=google&utm_medium=search&utm_campaign=aon_expansao-comprar_topo_mar-aberto_exp_dsa&utm_term=698285273737&utm_content=164916933794&idcmp=s08%3Ac13%3Aa16a5bcd2b5e4f13823e53e17d578fc5&gad_source=1&gbraid=0AAAAADhCf13mWVpcH5q_Zeykdy2iNuUjb&gclid=EAIaIQobChMI3_7fyrHujAMVng9ECB3NGgW0EAAYAiAAEgI_zfD_BwE&tipoveiculo=motos&marca1=harley-davidson&modelo1=softail-breakout&page=1">https://www.webmotors.com.br/motos/estoque/harley-davidson/softail-breakout?utm_id=21235730122&utm_source=google&utm_medium=search&utm_campaign=aon_expansao-comprar_topo_mar-aberto_exp_dsa&utm_term=698285273737&utm_content=164916933794&idcmp=s08%3Ac13%3Aa16a5bcd2b5e4f13823e53e17d578fc5&gad_source=1&gbraid=0AAAAADhCf13mWVpcH5q_Zeykdy2iNuUjb&gclid=EAIaIQobChMI3_7fyrHujAMVng9ECB3NGgW0EAAYAiAAEgI_zfD_BwE&tipoveiculo=motos&marca1=harley-davidson&modelo1=softail-breakout&page=1</a></li>
+        <li><a href="https://www.brasiliaharley-davidson.com.br/blog/conheca-os-motores-que-revolucionaram-a-harley-davidson-ao-longo-dos-117-anos">https://www.brasiliaharley-davidson.com.br/blog/conheca-os-motores-que-revolucionaram-a-harley-davidson-ao-longo-dos-117-anos</a></li>
+        <li><a href="https://mcbmoto.com.br/conheca-a-historia-e-os-novos-motores-da-harley-davidson/">https://mcbmoto.com.br/conheca-a-historia-e-os-novos-motores-da-harley-davidson/</a></li>
+        
+    </ul>
+    <footer>
+        <p>João Antônio Araújo Silvestre</p>
+    <p>RA: 5165956</p>
+    </footer>
+
+</body>
+</html>

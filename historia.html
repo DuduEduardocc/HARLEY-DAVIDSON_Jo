@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>historia</title>
+    <style>
+        /* Estilo do menu de navegação */
+.menu-principal {
+    background-color: #c16815;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.menu-principal ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-principal a:hover {
+    background-color: #c16815;
+}
+         :root {
+           --harley: #c16815;
+            --cinza-claro: #f5f5f5;
+            --cinza-escuro: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--cinza-escuro);
+            background-color: var(--cinza-claro);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: var(--harley);
+            color: white;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: var(--harley);
+            border-bottom: 2px solid var(#c16815);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        
+        .modelo-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .modelo-card {
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .modelo-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .modelo-imagem {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--harley);        }
+        
+        .modelo-info {
+            padding: 20px;
+        }
+        
+        .modelo-nome {
+            font-size: 1.4rem;
+            color: var(--harley);
+            margin-bottom: 10px;
+        }
+        
+        .modelo-detalhes {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+        
+        .modelo-status {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        
+        .motorizacao {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .motor-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .motor-item:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        footer {
+    background-color: #c16815;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.menu {
+  background-color: #c16815;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  margin: 0; /* remove margem externa */
+  box-sizing: border-box;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ffcc00; /* cor de destaque ao passar o mouse */
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <img src="https://i.postimg.cc/Y0Vjx2TR/download.png" alt="harley" width="400">
+    </header>
+    
+    <nav class="menu-principal">
+        <ul>
+            <a href="contato.html">Contato</a>
+            <a href="curiosidade.html">Curiosidade</a>
+            <a href="customização.html">customização</a>
+            <a href="fotos.html">Fotos</a>
+            <a href="historia.html">História</a>
+            <a href="manutencao.html">Manutenção</a>
+            <a href="modelo.html">Modelo</a>
+            <a href="tabela.html">Tabela</a>
+            <a href="index.html">Inicial</a>
+            <a href="videos.html">videos</a>
+            <a href="referencias.html">Referências</a>
+            <a href="#topo" style="position: fixed; bottom: 20px; right: 20px; background-color: #c16815; color: white; padding: 10px 15px; border-radius: 50%;">↑</a>
+
+
+        </ul>
+    </nav>
+
+     <h1>História da HARLEY-DAVIDSON</h1>
+     <p>Em 1903, em Milwaukee, no Wisconsin, dois jovens resolveram instalar um motor num quadro de bicicleta, com a intenção de se locomover mais rapidamente e mais comodamente nas subidas. Estes dois jovens se chamavam Arthur Davidson e William S. Harley e certamente não sabiam que acabavam de criar um dos meios de transportes mais utilizados do mundo e uma das marcas mais cobiçadas pelos amantes de motocicletas, a marca Harley Davidson.</p>
+     <img src="https://i.postimg.cc/W4BWnPsT/download.jpg" alt="primeira HARLEY-DAVIDSON" width="600px">
+     
+     <h2> Conheça a história dos motores Harley-Davidson</h2>
+     <h3>ATMOSPHERIC V-TWIN (1909)</h3>
+     <p>O primeiro motor de dois cilindros da Harley-Davidson surgiu em 1909, o Atmospheric V-Twin, que recebeu esse nome devido à atuação de suas válvulas pelo vácuo criado durante o curso de admissão do pistão. Ele ganhou um lugar especial na história da H-D por ser o elemento mais distintivo do design da motocicleta da marca: o motor V-Twin refrigerado a ar de 45 graus.</p>
+     <img src="https://i.postimg.cc/15MyYvgL/ATMOSPHERIC-V-TWIN-1909.jpg" alt="ATMOSPHERIC V-TWIN (1909)" width="600px">
+     
+     
+     <h2>F-HEAD (1911 – 1929)
+    </h2>
+     
+     <p>Em 1911, o cofundador e engenheiro-chefe Bill Harley tinha resolvido os problemas de seu design V-Twin com a criação do motor F-Head que tinha válvulas operadas mecanicamente. Até 1929 foi o principal motor da companhia até a introdução do V-Twin Flathead.
+        Disponível em deslocamentos de 45 e, posteriormente, de 74 e 80 polegadas, esses incríveis motores de válvula lateral provaram seu valor para a Harley-Davidson com longevidade incomparável. Gerações de motociclistas gostaram da simplicidade e confiabilidade do modelo Flathead que permaneceu em produção até o início dos anos 1970 em servicars de três rodas. Porém, até os anos 1930, os motociclistas já exigiam mais potência.</p>
+        <img src="https://i.postimg.cc/Qtj6PJKy/f-head.png" alt="F-HEAD (1911 – 1929)" width="600px">
+     
+        <h2>FLATHEAD (1929 – 1973)</h2>
+    
+     <p>A grande depressão foi um golpe para a indústria de motocicletas. Na tentativa de atender à demanda, Bill Harley testou várias novas opções de motor, até chegar ao incrível Flathead, incluindo os designs de quatro cilindros em linha e o “boxer”, de estilos opostos.</p>
+     <img src="https://i.postimg.cc/vTrW5czw/flathead.jpg" alt="FLATHEAD (1929 – 1973)" width="600px">
+     
+     <h2>KNUCKLEHEAD (1936 – 1947)
+    </h2>
+    
+     <p>Foi o primeiro motor da Harley-Davidson a ter componentes e superfícies deliberadamente estilizadas que, mais tarde, se tornaram um marco do desenvolvimento de produtos da marca. Ele recebeu este nome devido às tampas do cabeçote de alumínio polido brilhante, com dois grandes parafusos dos balancins em cada cilindro. Com o mesmo ângulo de cilindro de 45 graus que seus antecessores, o motor totalmente novo proporcionou mais potência, parcialmente devido às válvulas no cabeçote. Com ele, também foi lançado o primeiro sistema de óleo recirculante de circuito fechado H-D. Logo, todos os motores da companhia teriam o novo sistema de cárter de óleo seco e, junto a ele, o emblemático tanque em forma de ferradura em torno da bateria.</p>
+
+     <img src="https://i.postimg.cc/yNRWD2jw/Knucklehead-500x500.jpg" alt="KNUCKLEHEAD (1936 – 1947)
+     " width="600px">
+
+     <h2>PANHEAD (1948 – 1965)</h2>
+     
+     <p>O Knucklehead definiu a aparência básica dos motores Big Twin que foram criados posteriormente pela Harley-Davidson e inspiraram muitos de seus concorrentes. Em 1948, mudanças importantes foram feitas para a criação de um novo motor com arquitetura básica e deslocamento semelhantes ao Knucklehead, logo lançado como Panhead. Ainda mais que o estilo do motor anterior serviu de estímulo para o Panhead, que também tinha cabeçotes de alumínio mais eficientes e tuchos de válvula hidráulicos que eram mais silenciosos e precisavam de menos manutenção.</p>
+    <img src="https://i.postimg.cc/m2Q9DG09/panhead.jpg" alt="PANHEAD (1948 – 1965)"  width="600px">
+     
+     <h2>SHOVELHEAD (1966 – 1984)</h2>
+
+     <p>O Panhead foi seguido pelo Shovelhead para as motocicletas modelo/ano 1966 e apresentou, principalmente, uma melhoria na potência. As duas décadas seguintes viram uma proliferação de novos modelos que passaram a ser equipadas com motores Big Twin (como as motocicletas da família Dyna – Super Glide® 1971, o Low Rider® 1977, o Wide Glide® 1980 e muitas outras). Antes, os Big Twin só equipavam motos Touring.</p>
+     <img src="IMG/shovelhead.jpg" alt="SHOVELHEAD (1966 – 1984)" white="600px">
+
+
+     <h2>EVOLUTION (1984 – 1999) </h2>
+     <p>O motor Evolution® passou a integrar os modelos de 1984. Com 80 polegadas cúbicas, foi o maior salto no formato dos motores Big Twin até aquele momento. Tinha um design sem vazamento de óleo, com ruído mecânico reduzido e uma vida útil muito mais longa, entre outros avanços. Todos os recursos do Evolution®que os clientes prezavam foram mantidos no novo motor Twin Cam 88® que estreou nas motos de 1999.</p>
+     <img src="https://i.postimg.cc/28zkQR1h/evolution.jpg" alt="EVOLUTION (1984 – 1999) " white="600px">
+
+     <h2>TWIN CAM (1999 – Até hoje) </h2>
+     <p>O novo motor oferecia comandos de válvulas impulsionados por corrente e aumento de deslocamento. O Twin Cam 88® foi novamente aumentado em 2007, para se tornar o Twin Cam 96™. Mudanças significativas vieram com os modelos 103 e 110, ambos disponíveis com ou sem a refrigeração Twin-Cooled no modelo ano 2014. Juntamente com as várias melhorias do Projeto RUSHMORE na família Touring, até então, o Twin Cam fez parte do maior projeto de desenvolvimento de produto da história da Harley-Davidson.</p>
+     <img src="https://i.postimg.cc/3w2VfN6R/twin-cam.jpg" alt="TWIN CAM (1999 – Até hoje)" width="600px">
+
+     <h2>NOVO MOTOR MILWAUKEE-EIGHT™</h2>
+     <p>Em março de 2009, a linha Astra ganha um novo motor 2.0 que desenvolve agora bons 140 cv (álcool) e 133 cv com gasolina, este é o motor mais potente que já equipou o carro no Brasil, segundo a GM este propulsor leva o Astra de 0 a 100 km/h em 9.8 segundos podendo atingir os 200 km/h de velocidade máxima.</p>
+
+     <img src="https://i.postimg.cc/440PtZLF/milwaukee-eight.jpg" alt="NOVO MOTOR MILWAUKEE-EIGHT™" width="600px">
+
+    
+<footer>
+    <p>João Antônio Araújo Silvestre</p>
+    <p>RA: 5165956</p>
+</footer>
+
+    </body>
+</html>

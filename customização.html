@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harley Davidson</title>
+    <style>
+        /* Estilo do menu de navegação */
+.menu-principal {
+    background-color: #c16815;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.menu-principal ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-principal a:hover {
+    background-color: #c16815;
+}
+         :root {
+           --harley: #c16815;
+            --cinza-claro: #f5f5f5;
+            --cinza-escuro: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--cinza-escuro);
+            background-color: var(--cinza-claro);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: var(--harley);
+            color: white;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: var(--harley);
+            border-bottom: 2px solid var(#c16815);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        
+        .modelo-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .modelo-card {
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .modelo-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .modelo-imagem {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--harley);        }
+        
+        .modelo-info {
+            padding: 20px;
+        }
+        
+        .modelo-nome {
+            font-size: 1.4rem;
+            color: var(--harley);
+            margin-bottom: 10px;
+        }
+        
+        .modelo-detalhes {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+        
+        .modelo-status {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        
+        .motorizacao {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .motor-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .motor-item:last-child {
+            border-bottom: none;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        footer {
+    background-color: #c16815;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.menu {
+  background-color: #c16815;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  margin: 0; /* remove margem externa */
+  box-sizing: border-box;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ffcc00; /* cor de destaque ao passar o mouse */
+}
+
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+       
+        <img src="https://i.postimg.cc/Y0Vjx2TR/download.png" alt="Logotipo da Harley Davidson" width="400">
+    </header>
+    
+    <nav class="menu-principal">
+        <ul>
+            <a href="contato.html">Contato</a>
+            <a href="curiosidade.html">Curiosidade</a>
+            <a href="customização.html">customização</a>
+            <a href="fotos.html">Fotos</a>
+            <a href="historia.html">História</a>
+            <a href="manutencao.html">Manutenção</a>
+            <a href="modelo.html">Modelo</a>
+            <a href="tabela.html">Tabela</a>
+            <a href="index.html">Inicial</a>
+            <a href="videos.html">videos</a>
+            <a href="referencias.html">Referências</a>
+            <a href="#topo" style="position: fixed; bottom: 20px; right: 20px; background-color: #c16815; color: white; padding: 10px 15px; border-radius: 50%;">↑</a>
+
+
+        </ul>
+    </nav>
+    <h1>As motocicletas custom</h1>
+    <p>Foi lá na década de 1920 que a customização de motocicletas, como pinturas diferentes e colagem de adesivos, surgiu. Porém, foi apenas 30 anos depois, em 1950 e 1960 que as ‘verdadeiras custom’ nasceram.
+
+        Para que uma motocicleta seja considerada custom, ela precisa ter esta versão modificada e/ou personalizada criada do zero.</p>
+    <img src="https://i.postimg.cc/rFsgbsbJ/custom-1.jpg" alt="HARLEY-DAVIDSON" width="600px">
+    <br><br>
+    <p>Antes, quando falávamos de motos custom, este nome era associado às clássicas motos da Harley-Davidson, por exemplo. Porém, com o amplo mercado de personalizações, hoje temos diferentes tipos e marcas de motos customizadas. <br><br>
+
+        Abaixo, falamos um pouco sobre cada tipo.</p>
+    
+    <h2>Diferentes tipos de customização</h2>
+    <p>As oficinas de customização tem como sua maior inspiração as motocicletas clássicas. Assim, o mercado, ao mesmo tempo que se atualiza, retorna às suas raízes vintage. Algumas delas são:</p>
+    
+    
+    <h2>Customização Cafe Racer</h2>
+    <img src="https://i.postimg.cc/tgqkHzCL/caferacer.jpg" alt="caferacer" width="600px">
+    <p>Esse estilo de modificação se baseia nas motos inglesas dos anos 1950 e 1960 utilizadas para disputar rachas nas ruas de Londres.
+
+        Estas motos contavam com um design especial de guidão baixo, banco único e pedaleiras recuadas.</p>
+       
+    
+       <h2>Customização Chopper</h2>
+   
+    <p>Estas podem ser reconhecidas de longe por contarem com uma característica muito específica – seu garfo dianteiro é alongado e seu ângulo de cáster também é aumentado.
+
+        Além disso, seu guidão é consequentemente alto e este tipo de moto faz muito sucesso desde os anos 60 até os dias de hoje.</p>
+    
+    <h2>Customização Bobber
+   </h2>
+   
+    <p>Este tipo de modificação nasceu nos Estados Unidos após a Segunda Guerra Mundial. 
+
+        Na época, os soldados que voltavam da batalha procuravam modelos mais leves de motocicletas e arrancavam sua carenagem e outras peças mais ‘supérfluas’. Além disso, as rodas dianteiras e traseiras eram do mesmo diâmetro.</p>
+
+
+    <h2>Customização Scrambler</h2>
+    <img src="https://i.postimg.cc/HsGsvZ6s/scrambler.jpg" alt="scrambler"  width="600px">
+    
+    <p>Este estilo é um pouco diferente dos já citados acima pois a estilização traz um caráter mais off road para a motocicleta, mas ainda assim com detalhes vintage.
+
+        Estas costumam contar com motor bicilíndrico, pneus com cravos, bancos mais altos, guidão elevado, escapamento na lateral e suspensão de maior curso.
+        
+        Hoje em dia, é comum que motos naked sejam customizadas em motos scrambler.</p>
+  
+    
+    <h2>Customização Tracker</h2>
+
+    <p>Este tipo de é semelhante às motos scrambler, porém são mais comuns em circuitos esportivos e ovais de terra batida. 
+
+        Para que estas se tornem motos competitivas, alguns detalhes como os guidões mais relaxados, suspensão traseira à gás e pneus biscoito são diferenciais.</p>
+
+    <h2>Customização Rat Bike </h2>
+    <p>Estas motos são um pouco mais raras, mas são semelhantes aos ‘carros ratos’. Sua estilização conta com tanques e peças enferrujadas combinadas com toques de cromado em alguns componentes.</p>
+    
+
+    <h2>Customização Brat Style </h2>
+    <p>O estilo Brat parte das motos japonesas dos anos 70 e contam com estilos específicos, combinando linhas retas e uma finalização com aspecto de limpo, novo e urbano.
+
+        Suas principais características são assentos baixos e retos, lanternas pequenas e para-lamas curtíssimos.</p>
+   
+
+    <h2>Customização Bagger</h2>
+    <p>As motos bagger também surgiram nos Estados Unidos e são bastante características, contando com laterais mais rígidas e pinturas chamativas.
+
+        Além disso, suas rodas dianteiras são maiores (como aro 19 e 21) e cromadas e/ou reluzentes.</p>
+
+        <h2>Customização Streetfighter</h2>
+    <img src="https://i.postimg.cc/bv5mHtpW/Streetfighter.jpg" alt="Customização Streetfighter" width="600px">
+    <p>Por fim, este tipo de customização é mais recente e surgiu nos anos 90 em solo Europeu.
+
+        Essa customização se trata da remoção de peças de motos japonesas melhorando sua ergonomia, como nas motos naked. </p>
+
+
+   
+<footer>
+   <p>João Antônio Araújo Silvestre</p>
+   <p>RA: 5165956</p>
+</footer>
+
+   </body>
+</html>
